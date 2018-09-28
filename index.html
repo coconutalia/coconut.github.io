@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Siska Natalia - 98' Kid</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="foto/logo2.png" rel="shortcut icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+	body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  .kesatu{
+  	background: url(foto/yay2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  	height: 410px;
+  }
+  .kedua{
+  	position: relative;
+  	background: url(foto/dua.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  	height: 410px;
+  	color:#fff;
+
+  }
+  .marble2{
+  	background: url(foto/yay3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  	width: 100%;
+  	height: 40px;
+  }
+  .edu{
+    background: url(foto/yay3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .kontak{
+    background:url(foto/yaya.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .hitam{
+    color: black;
+  }
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 5px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  .luar{
+    background: url(foto/daun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .gallery{
+    background-color: #474342;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .table{
+    border: 1px solid black;
+}
+.kaki{
+  background-color: grey;
+  color: white;
+}
+</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="#myPage">SN</a>
+        <a class="navbar-brand" href="instagram.com/siskanatalia_"><img src="foto/instagram.svg" width="20px"></a>
+        <a class="navbar-brand" href="gmail.com/siska251298"><img src="foto/email.svg" width="25px"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#Home">HOME</a></li>
+	        <li><a href="#About-Me">ABOUT ME</a></li>
+	        <li><a href="#Gallery">GALLERY</a></li>
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+	          <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Family</a></li>
+	            <li><a href="#">Best Friend</a></li>
+	            <li><a href="#">Experiences</a></li> 
+	          </ul>
+	        </li>
+	        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+
+    <div class="kesatu">
+    	<div class="tetap container text-center">
+          <h2>Hello</h2>
+    		  <h3>I'm Siska Natalia</h3>
+    		  <img src="foto/siska.JPG" class="img-responsive img-circle margin" style="display:inline" width="160" height="160">
+    		  <p>"I'm 1998' Kid, How 'bout U..?"</p>
+    	</div>
+    </div>
+    <div class="kedua">
+    	<div class="container text-center">
+    		<h2>a Cup of Tea <img src="foto/tea.svg" width="30px"></h2>
+    		<p>“My name is Siska Natalia, I was born in Sukoharjo Dec,25 1998. So now I almost 20 years old. I Love pets. I have so many pets at my house. There are dog, turtle, hamster, and fish. Soon, i want to buy sugar glider but it costs too much :'). My hobbies are photography, singing, and culinary. And also my another hobby is designing but im not expert at it, i need learn a lots. Keep your dreams come true, because SKY is the LIMIT! ”</p>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    	    <!-- Indicators -->
+    	    <ol class="carousel-indicators">
+    	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    	      <li data-target="#myCarousel" data-slide-to="1"></li>
+    	      <li data-target="#myCarousel" data-slide-to="2"></li>
+    	    </ol>
+
+
+    	    <!-- Wrapper for slides -->
+    	    <div class="carousel-inner" role="listbox">
+    	      <div class="item active">
+    	        <img src="foto/yay4.png" alt="My Profile" width="600" height="800">
+    	        <div class="carousel-caption">
+                <div class="hitam">
+    	          <h2>My Passion</h2>
+                </div>
+    	        <h4>Fashion Design, Photography, and anything else related to Art</h4>
+    	        </div>      
+    	      </div>
+
+    	      <div class="item">
+    	        <img src="foto/yay4.png" alt="2" width="600" height="800">
+    	        <div class="carousel-caption">
+                  <div class="hitam">
+        	        <h2>Quote</h2>
+                  </div>
+                <h4>"a Goal is a Dream with a Deadline"</h4>
+                </div>      
+    	      </div>
+
+            <div class="item">
+              <img src="foto/yay4.png" alt="2" width="600" height="800">
+              <div class="carousel-caption">
+                  <div class="hitam">
+                  <h2>Portofolio</h2>
+                  </div>
+                <h4>You can kindly visit my project at <a href="www.furniturepiguno.com">Furniture Piguno</a>and<a href="www.grosir.furniturepiguno.com">Furniture Wholesale</a></h4>
+                </div>      
+            </div>
+
+    	    <!-- Left and right controls -->
+    	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    	      <span class="sr-only">Previous</span>
+    	    </a>
+    	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    	      <span class="sr-only">Next</span>
+    	    </a>
+        </div>
+      </div>
+        
+       <div class="luar"> 
+        <div class="container">
+    	    <div class="gallery text-center">
+            
+    	    		<h1>GALLERY</h1>
+              <div display="inline grid">
+                <div><img src="foto/grup.jpg" width="330" height="205" align="center" alt="hill"></div>
+                <div><img src="foto/one.JPG" width="330" height="440" align="center" alt="my self"></div>
+                <div><img src="foto/hunting.JPG" width="330" height="205" align="center" alt="hunting"></div>
+                <div><img src="foto/elang.JPG" width="330" height="190" align="center" alt="eagle"></div>
+                <div><img src="foto/siti.JPG" width="330" height="250" align="center" alt="my best friend"></div>
+                <div><img src="foto/dinner.JPG" width="330" height="205" align="center" alt="dinner"></div>
+                <div><img src="foto/pantai.JPG" width="330" height="400" align="center" alt="pantai"></div>
+              </div>
+    	    </div>
+          </div>
+        </div>
+
+            <div class="edu">
+              <div class="container text-center">
+            
+              <h1>EDUCATION</h1>
+              <table class="hitam" border="6px solid white" align="center">
+              <tr>
+                <td><b>2017-Now</b></td>
+                <td>Computer & Information System Vocational School of Universitas Gadjah Mada</td>
+              </tr>
+              <tr>
+                <td><b>2014-2017</b></td>
+                <td>Regina Pacis Senior High School</td>
+              </tr>
+              <tr>
+                <td><b>2011-2014</b></td>
+                <td>Bintang Laut Junior High School</td>
+              </tr>
+              <tr>
+                <td><b>2005-2011</b></td>
+                <td>Tarakanita Elementary School</td>
+              </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="kontak">
+            <div class="container text-center">
+              <h1>Find and Follow Me</h1>
+              <p>Instagram</p>
+              <h3><a href="instagram.com/siskanatalia_"><img src="foto/instagram.svg" width="25px"></a><h4>or</h4>
+              <p>Via Email</p>
+              <a href="gmail.com/siska251298"><img src="foto/email.svg" width="25px"></a></h3>
+            </div>
+          </div>
+
+          <footer class="kaki text-center">
+          <p>Copyright@2018 <a href="coconut.github.io/profile">SiskaNatalia</a></p> 
+          </footer>
+</html>
